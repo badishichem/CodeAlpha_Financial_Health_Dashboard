@@ -12,7 +12,7 @@ This project delivers a fully interactive Financial Health Dashboard built in Po
 
 ## Dataset Details
 **Dataset Name :** synthetic personal finance dataset
-**Source:** Kaggle  
+**Source:** Kaggle 
 **File Type:** CSV 
 
 ### 📊 Columns Overview
@@ -54,7 +54,6 @@ This project delivers a fully interactive Financial Health Dashboard built in Po
   - `Avg Credit Score = AVERAGE(synthetic_personal_finance_dataset[credit_score])`
   - `Total Expenses = SUM(synthetic_personal_finance_dataset[monthly_expenses_usd])`
   - `Users with loan = CALCULATE(COUNT(synthetic_personal_finance_dataset[user_id]), synthetic_personal_finance_dataset[has_loan] = "YES")`
-  - 
 ### **1️⃣ KPI Overview**
 - **Total Income:** 130,60M
 - **Total Expenses:** 78.45M  
